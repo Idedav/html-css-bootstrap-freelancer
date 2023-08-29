@@ -8,6 +8,10 @@ nav{
     background-color: #2C3E50;
 }
 
+footer{
+    background-color: #3A546D;
+}
+
 [class^="col"]{
     border: 1px solid black;
     min-height: 100px;
@@ -21,4 +25,9 @@ nav{
 .container-dc{
     width: 80%;
     margin:auto;
+}
+
+.copyright{
+    height: 100px;
+    background-color: #2C3E50;
 }
