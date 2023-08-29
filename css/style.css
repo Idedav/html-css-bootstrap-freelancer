@@ -1,0 +1,13 @@
+header{
+    height: 1000px;
+    background-color: #1ABC9C;
+}
+
+nav{
+    height: 100px;
+    background-color: #2C3E50;
+}
+
+[class^="col"]{
+    border: 1px solid black;
+}
