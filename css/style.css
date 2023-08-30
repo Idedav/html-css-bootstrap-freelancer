@@ -1,8 +1,4 @@
 
-[class^="col"]{
-    border: 1px solid black;
-}
-
 h2{
     font-size: 2rem;
 }
@@ -81,6 +77,34 @@ nav a{
     border-radius: 10px;
 }
 
+.dc-card{
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.add{
+    width: 95%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    background-color: rgba(26, 188, 156, .5);
+}
+
+.dc-card:hover .add{
+    display: flex;
+}
+
 /* ABOUT */
 .about{
     background-color: #1ABC9C;
@@ -119,9 +143,30 @@ nav a{
 
 footer{
     background-color: #3A546D;
+    color: white;
+}
+
+footer span{
+    font-size: 1.3rem;
+}
+
+.icons a{
+    color: white;
+}
+
+.icons a i{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.text-green{
+    color: #1ABC9C;
 }
 
 .copyright{
-    height: 100px;
     background-color: #2C3E50;
+}
+.copyright span{
+    font-size: 1rem;
 }
