@@ -7,6 +7,13 @@ h2{
     font-size: 2rem;
 }
 
+.container-dc{
+    width: 80%;
+    max-width: 1200px;
+    margin:auto;
+}
+
+/* HEADER */
 header{
     background-color: #2C3E50;
     height: 100px;
@@ -30,6 +37,8 @@ nav a{
     color: #1ABC9C;
 }
 
+/* JUMBOTRON */
+
 .dc-jumbotron{
     background-color: #1ABC9C;
     color: white;
@@ -47,6 +56,8 @@ nav a{
     font-size: 1.3rem;
 }
 
+/* STAR */
+
 .line{
     width: 20%;
     height: 4px;
@@ -63,11 +74,14 @@ nav a{
     font-size: 1.5rem;
 }
 
+/* PORTFOLIO */
+
 .portfolio img{
     width: 95%;
     border-radius: 10px;
 }
 
+/* ABOUT */
 .about{
     background-color: #1ABC9C;
     color: white;
@@ -78,13 +92,33 @@ nav a{
     font-size: 1.2rem;
 }
 
-footer{
-    background-color: #3A546D;
+/* CONTACT ME */
+
+.input-custom{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    padding: 0px;
 }
 
-.container-dc{
-    width: 80%;
-    margin:auto;
+.input-custom::placeholder{
+    color: black;
+}
+
+.button-custom{
+    background-color: #1ABC9C;
+    border: none;
+}
+
+.button-custom:hover{
+    background-color: #1abc9ca2;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #3A546D;
 }
 
 .copyright{
