@@ -1,7 +1,6 @@
 
 [class^="col"]{
     border: 1px solid black;
-    min-height: 100px;
 }
 
 header{
@@ -29,6 +28,30 @@ nav a{
 
 .dc-jumbotron{
     background-color: #1ABC9C;
+    color: white;
+}
+
+.dc-jumbotron img{
+    width: 300px;
+}
+
+.dc-jumbotron h1{
+    font-size: 3rem;
+}
+
+.dc-jumbotron p{
+    font-size: 1.3rem;
+}
+
+.line{
+    width: 20%;
+    height: 4px;
+    border-radius: 20px;
+    margin: 0px 10px;
+    background-color: white;
+}
+.star{
+    font-size: 1.5rem;
 }
 
 footer{
