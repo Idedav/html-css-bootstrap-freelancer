@@ -3,6 +3,10 @@
     border: 1px solid black;
 }
 
+h2{
+    font-size: 2rem;
+}
+
 header{
     background-color: #2C3E50;
     height: 100px;
@@ -50,17 +54,32 @@ nav a{
     margin: 0px 10px;
     background-color: white;
 }
+
+.line.black{
+    background-color: black;
+}
+
 .star{
     font-size: 1.5rem;
 }
 
-footer{
-    background-color: #3A546D;
+.portfolio img{
+    width: 95%;
+    border-radius: 10px;
 }
 
 .about{
     background-color: #1ABC9C;
-    height: 500px;
+    color: white;
+}
+
+.about p{
+    text-align: start;
+    font-size: 1.2rem;
+}
+
+footer{
+    background-color: #3A546D;
 }
 
 .container-dc{
